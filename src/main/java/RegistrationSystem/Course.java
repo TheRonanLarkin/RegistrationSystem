@@ -65,7 +65,7 @@ public class Course {
     
     @Override
     public String toString(){
-        return courseName + "modules: " + Arrays.toString(modules);
+        return courseName + " Modules: " + Arrays.toString(modules);
                 
     } 
     

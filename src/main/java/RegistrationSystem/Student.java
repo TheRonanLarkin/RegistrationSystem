@@ -83,7 +83,7 @@ public class Student {
     
      @Override
     public String toString(){
-        return username + "Courses: " + Arrays.toString(courses) + "Modules: " + Arrays.toString(modules);
+        return username + " Courses: " + Arrays.toString(courses) + " Modules: " + Arrays.toString(modules);
                 
     } 
     
