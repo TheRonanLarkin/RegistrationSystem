@@ -1,6 +1,7 @@
 
 package RegistrationSystem;
 
+import java.util.Arrays;
 import org.joda.time.DateTime;
 
 /*
@@ -61,5 +62,11 @@ public class Course {
     public void setEndDate(DateTime endDate) {
         this.endDate = endDate;
     }
+    
+    @Override
+    public String toString(){
+        return courseName + "modules: " + Arrays.toString(modules);
+                
+    } 
     
 }

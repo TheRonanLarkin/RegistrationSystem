@@ -2,6 +2,7 @@
 package RegistrationSystem;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 
 /*
  * @author Ronan Larkin
@@ -79,4 +80,11 @@ public class Student {
     public void setID(int ID) {
         this.ID = ID;
     }    
+    
+     @Override
+    public String toString(){
+        return username + "Courses: " + Arrays.toString(courses) + "Modules: " + Arrays.toString(modules);
+                
+    } 
+    
 }
